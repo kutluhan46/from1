@@ -9,11 +9,11 @@
 </head>
 <body bgcolor="#1a1b32">
     <div class="container">
-        <h2>Registrarion Form</h2>
-        <br>
+        <h1>Registrarion Form</h1>
+        <br><br>
         <h4>Please fill out this form the required information</h4>
         <div class="clear"></div>
-        <br>
+        <br><br><br><br>
         <div class="form">
             <p>Enter Your First Name:</p>
             <input type="text" style="margin-top: 10px;" class="name">
@@ -22,23 +22,36 @@
             <p>Enter Your Email:</p>
             <input type="text" style="margin-top: 10px;" class="name">
             <p>Creat a New Passaword:</p>
+            <br><br><br>
             <input type="text" style="margin-top: 10px;" class="name">
             <br><br>
             <hr size="3" width="800px" color="#3b3b4f" />
-            <br><br>
+            <br><br><br><br><br>
             <input type="radio" name="PA" class="radio" value="Personel Account">
             <label for="Pa">Personel Account</label><br><br>
             <input type="radio" name="BA" class="radio" value="Business Account">
             <label for="Ba">Business Account</label><br><br>
             <input type="checkbox" name="PA" class="radio" value="Business Account">
             <label for="Pa">I accept the <a href="#">terms and conditions</a></label><br><br><br>
-            <hr size="3" width="800px" color="#3b3b4f" />
             <br><br>
+            <hr size="3" width="800px" color="#3b3b4f" />
+            
             <p>Upload a profile picture:</p>
-            <div class="btn">
-                <input type="file" value="Choose File" class="add">
-                
-            </div>
+            <div class="file">
+                <input type="file" value="Choose File" class="add">     
+                <p>Input year age(years):</p>
+                <input type="text" style="margin-top: 10px;" class="name">
+                <p>How did you hear about us?</p>
+                <select name="haber" id="haber">
+                    <option value="select">(select one)</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Sosical Media">Sosical Media</option>
+                  </select>
+                  <p>Provide a bio:</p>
+                  <textarea class="area" name="bio" placeholder="I like coding on the beach..."></textarea>
+                  <input type="submit" name="sumbit" class="sumbit" id="gonder">
+                </div>
+            
 
         </div>
     </div>
